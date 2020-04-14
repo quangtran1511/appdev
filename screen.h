@@ -33,3 +33,4 @@ void drawbar(int, int);
 void setcolor (int, int);
 void box(void);
 Position getscreensize(void);		//this functin return a compund data (2 ints)
+int devicestatus(void);
