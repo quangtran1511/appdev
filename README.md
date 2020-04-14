@@ -9,6 +9,7 @@ General Discription of the Application
 	Always indent for pagraphs
 
 Table of contents
+
 	1. Configuration instructions
 	2. Installation instructions
 	3. Operating instructions
