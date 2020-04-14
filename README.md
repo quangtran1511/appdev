@@ -9,13 +9,13 @@ General Discription of the Application
 	Always indent for pagraphs
 
 Table of contents
-1. Configuration instructions
-2. Installation instructions
-3. Operating instructions
-4. File manifest
-5. Copyright and licensing information
-6. Contacting information
-7. Credits and acknowledgements
+	1. Configuration instructions
+	2. Installation instructions
+	3. Operating instructions
+	4. File manifest
+	5. Copyright and licensing information
+	6. Contacting information
+	7. Credits and acknowledgements
 
 1. Configuration instructions
 	In this section you need to tell the user how to config the system
