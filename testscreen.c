@@ -2,6 +2,7 @@
 #include "screen.h"
 #include <unistd.h>
 #include "comm.h"
+#include "sound.h"
 
 int main(void)
 {
@@ -81,4 +82,9 @@ for(int i=0; i<10; i++){
 	resetcolor();
 	clearscreen();
 	printf("This line is back to default color\n");
+	FILE *fp;
+	fp = fopen("test.wav", "r");
+	WAVheader h = readwavhdr(fp);
+	fclose(fp);
+	displayWAVhdr(h);
 }
