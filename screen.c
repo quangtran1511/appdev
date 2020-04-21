@@ -10,7 +10,7 @@ int devicestatus(void){
 	scanf("%s", status);
 	int ret;
 	char dum;
-	sscanf(status, "%c%c%d%c", &dum, &dum, &ret, %dum);
+	sscanf(status, "%c%c%d%c", &dum, &dum, &ret, &dum);
 	return ret;
 }
 void setfgcolor(int fg){
@@ -45,7 +45,7 @@ void drawbar(int col, int height){
 	int i;
 	for(i=1; i<=height; i++)
 	{
-		setcursor(i, col);
+		setcursor(35-i, col);
 #ifdef UNICODE		// following code are in conditional compilation
 		printf("%s", BAR);
 #else

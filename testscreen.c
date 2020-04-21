@@ -85,6 +85,7 @@ for(int i=0; i<10; i++){
 	FILE *fp;
 	fp = fopen("test.wav", "r");
 	WAVheader h = readwavhdr(fp);
-	fclose(fp);
 	displayWAVhdr(h);
+	wavdata(h, fp);		//to calculate the dB values and display them as a barchart
+	fclose(fp);
 }

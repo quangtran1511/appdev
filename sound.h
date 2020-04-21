@@ -1,6 +1,6 @@
 // in this file we difine related constants and declare functions
 // for handling sounds.
-
+//#define SDEBUG
 // define sound structure (deal with .wav file)
 
 typedef struct{
@@ -22,3 +22,4 @@ typedef struct{
 // function declaration
 WAVheader readwavhdr(FILE *fp);
 void displayWAVhdr(WAVheader h);
+void wavdata(WAVheader h, FILE *fp);
