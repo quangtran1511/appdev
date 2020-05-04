@@ -42,6 +42,13 @@ Table of contents
 	comm.c:			contains client-server communication function
 	comm.h:			contains communication declaration
 	testcurl.c:		test commnunication function
+	test.php:		contain code to read and write post data
+	main.c:			contain code to run sound file
+	sound.h:		contains sound function declaration and related constant
+	sound.c:		contains sound manipulation functions
 
 5. Copyright and licensing information
 	This application follow GPLv2 license.
+
+6.Contact information
+	quangtran15111996@gmail.com
